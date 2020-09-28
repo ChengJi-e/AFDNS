@@ -6,5 +6,5 @@
 @@||aliyun.com^
 @@||t5.a.market.xiaomi.com^$important
 @@||mb.yidianzixun.com^$important
-@@||camo.githubusercontent.com^$important
-@@||api.github.com^$important
+@@||githubusercontent.com^$important
+@@||github.com^$important
