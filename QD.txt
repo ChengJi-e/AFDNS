@@ -5,3 +5,4 @@
 @@||img.zuoyebang.cc^$important
 @@||aliyun.com^
 @@||t5.a.market.xiaomi.com^$important
+@@||mb.yidianzixun.com^$important
