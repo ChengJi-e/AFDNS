@@ -1,3 +1,4 @@
+!这是一个DNS允许白名单，用于解除被各大拦截规则误伤的域名
 @@||weixin.qq.com^
 @@||cn.bing.com^$important
 @@||img.zuoyebang.cc^$important
