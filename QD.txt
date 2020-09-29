@@ -8,3 +8,4 @@
 @@||mb.yidianzixun.com^$important
 @@||githubusercontent.com^$important
 @@||github.com^$important
+@@||activity.tuiapple.com^$important
