@@ -9,3 +9,4 @@
 @@||githubusercontent.com^$important
 @@||github.com^$important
 @@||activity.tuiapple.com^$important
+@@||aliyun.com^$important
