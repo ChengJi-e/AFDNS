@@ -1,3 +1,4 @@
 !这是一个加强屏蔽的规则，用于识别各大屏蔽器遗漏的广告
 ！作者--wei
 ||googleads.g.doubleclick.net
+||img001.shmkks.com^$important
