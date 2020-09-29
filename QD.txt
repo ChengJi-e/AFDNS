@@ -10,3 +10,5 @@
 @@||github.com^$important
 @@||activity.tuiapple.com^$important
 @@||aliyun.com^$important
+@@||m.manhuabei.com^$important
+@@||www.manhuabei.com^$important
