@@ -12,3 +12,4 @@
 @@||aliyun.com^$important
 @@||m.manhuabei.com^$important
 @@||www.manhuabei.com^$important
+@@||v3-ppx.ixigua.com^$important
