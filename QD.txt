@@ -16,3 +16,4 @@
 @@||worldwide.sogou.com^$important
 @@||szmg.qq.com^
 @@||cnnic.net.cn^
+@@||uxip.meizu.com^
