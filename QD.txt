@@ -18,3 +18,4 @@
 @@||cnnic.net.cn^
 @@||uxip.meizu.com^
 @@||wappass.baidu.com^
+@@||nav.browser.miui.com^
