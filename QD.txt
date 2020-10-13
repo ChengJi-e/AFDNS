@@ -19,3 +19,4 @@
 @@||uxip.meizu.com^
 @@||wappass.baidu.com^
 @@||nav.browser.miui.com^
+@@||guanjia.qq.com^
