@@ -20,3 +20,5 @@
 @@||wappass.baidu.com^
 @@||nav.browser.miui.com^
 @@||guanjia.qq.com^
+@@||flyme.cn^
+@@||meizu.com^
