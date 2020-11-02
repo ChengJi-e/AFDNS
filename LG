@@ -23,3 +23,116 @@
 ||gbsp*.com^
 ||baijiahao.baidu.com^
 ||aka.ms^
+以下规则采集至fuckad
+! 信息统计
+||ulogs.umengcloud.com
+||adashbc.ut.taobao.com
+||zhihu-web-analytics.zhihu.com/api/v1/logs/batch
+
+
+
+||api.ad.xiaomi.com
+||api.comm.miui.com/calendar/adcard/get
+||track.miui.com
+||data.mistat.xiaomi.com/mistats
+
+! 小米应用商店
+! 应用详情页的广告
+||app.market.xiaomi.com/apm/app/id/*$replace=/{\\"data\\":{\\"appTags\\".*?\\"type\\":\\"detailAppsets\\"}\,/ /
+
+! 首页BANNER广告
+
+! 搜索结果
+！  去掉"语音交友"
+||app.market.xiaomi.com/apm/search$replace=/"businessTabInfo":{.*?}\,/ /
+!   去掉搜索结果"第一条广告"
+||app.market.xiaomi.com/apm/search$replace=/{"data":.*?"listApp".*?"searchTopAdApp"\}\,/ /
+!   搜索结果广告app去除
+||app.market.xiaomi.com/apm/search$replace=/{"adType":2,"ads":1.*?"videoId":0}\,//
+
+! 下载界面推荐
+||app.market.xiaomi.com/apm/recommend/downloadmanagerV2$replace=/{.*}/{ }/
+! 搜索app出现的广告
+||app.market.xiaomi.com/apm/search/suggestV2$replace=/{"data":{"hasMore".*"type":"searchSugApps"}\,/ /
+! 二楼
+||app.market.xiaomi.com/apm/secondfloor$replace=/{.*}/{ }/
+! 搜索热词
+||app.market.xiaomi.com/apm/search/hotword$replace=/{.*}/{ }/
+! 应用升级界面为你推荐
+||app.market.xiaomi.com/apm/recommend/upgradepage$replace=/{.*}/{ }/
+! 个人中心推荐
+||app.market.xiaomi.com/apm/zone/myPage$replace=/{.*}/{ }/
+! 搜索界面大量推荐
+||app.market.xiaomi.com/apm/search/guidepage$replace=/{.*}/{ }/
+
+! bilibili
+! 去除开屏广告
+||app.bilibili.com/x/v2/splash/list
+! 去除推荐中的广告
+||app.bilibili.com/x/v2/feed/index$replace=/{"card_type":"cm_v2".*?"three_point_v2".*?}\,/ /
+! 免费换皮肤
+||club.bilibili.com/api/query.skin.list.do$replace=/"is_free":false/"is_free":true/
+! 精简界面的无用选项（底部tab栏游戏，右上角游戏，还有drawer的无用东西）
+! 去右上角游戏中心
+||app.bilibili.com/x/resource/show/tab$replace=/{"id":221.*?}\,//
+! 去会员购
+||app.bilibili.com/x/resource/show/tab$replace=/{"id":297.*?}\,//
+! 去除推荐当中banner上的广告
+||app.bilibili.com/x/v2/feed/index$replace=/{"id":0.*?"is_ad":true.*?"upzone_entrance_report_id".*?}\,/ /
+! 去除视频下的应用推广
+||app.bilibili.com/x/v2/view$replace=/{"pic".*?"stat".*?"new_card".*?}\,//
+! 去。。。。
+||app.bilibili.com/x/v2/account/mine$replace=/{"id":386.*?"id":391.*?}\,//
+! 去视频下方推广
+||app.bilibili.com/x/v2/view$replace=/{"title":.*?"is_ad":true.*?"trackid".*?}\,//
+! 去up推荐广告
+||app.bilibili.com/x/v2/view$replace=/{"request_id".*?"ad_info".*?}}}/{ }/
+
+! 知乎app google play版本
+! adguard默认规则会拦搜索，取消拦截
+@@||www.zhihu.com/api/v4^$app=com.zhihu.android
+||android.bugly.qq.com
+||zhihu-web-analytics.zhihu.com
+||api.zhihu.com/ad-style-service/request
+||api.zhihu.com/fringe/ad
+||mobads.baidu.com
+||mobads-logs.baidu.com
+||toblog.ctobsnssdk.com
+||pangolin.snssdk.com/api/ad
+||api-access.pangolin-sdk-toutiao.com/api/ad
+||bds.snsskd.com
+||sf3-ttcdn-tos.pstatp.com/obj/ad-pattern
+||sf3-fe-tos.pglstatp-toutiao.com/obj/ad-pattern
+||sdkconfig.voiceads.cn
+||sdk.voiceads.cn
+||img.voiceads.cn
+||sdk.e.qq.com
+
+!修改内容
+||api.zhihu.com/topstory/recommend$replace=/{"id":"AD.*?"type":"feed_advert".*?adjson.*?"ncontent".*?"ecpm".*?}}\,/ /
+!每个问题下的广告
+||api.zhihu.com/v4/questions/*/answers$replace=/"ad_info":{.*?}.*?"position".*?}\,/ /
+!关注tab
+||api.zhihu.com/moments/recommend$replace=/{"action_text".*?adjson.*?"feed_advert"}\,/ /
+!评论区广告
+||api.zhihu.com/answers/*/comments/featured-comment-ad
+! 去除直播烦人的小红点
+||api.zhihu.com/drama/living-info$replace=/true/false/
+
+||app.market.xiaomi.com/apm/app/id/*$replace=/\,{\\"data\\":{\\"listApp\\".*?\\"type\\":\\"detailRelatedApps\\"}/ /}
+
+
+! 微博国际版
+||api.weibo.com/2/proxy/sdk/statistic.json
+||adash.man.aliyuncs.com/man/api
+||googleadservices.com/pagead
+||sdk.e.qq.com/event
+||api.weibo.cn/2/friendships/create
+||api.weibo.cn/2/users/show_batch
+||sdkapp.mobile.sina.cn/interface/sdk/sdkad.php
+
+! miui主题壁纸
+!||api.zhuti.xiaomi.com/app/v9/uipages$replace=/{"title".*?"imageUrl":null.*?"canEncourage":false}\,/ /
+
+! miui浏览器
+||api.browser.miui.com/bsr/update/banners/v2
