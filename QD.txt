@@ -27,3 +27,4 @@
 !知乎评论
 @@||zhihu-web-analytics.zhihu.com/api/v2/za/payload-verification
 @@||data.mistat.xiaomi.com^$important
+@@||mparticle.uc.cn^$important
