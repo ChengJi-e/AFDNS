@@ -33,5 +33,6 @@
 @@||iqiyi.com^
 @@||taobao.com^$important
 @@||dot.360.cn^$important
-
+@@||tbs.qq.com^$important
+@@||otheve.beacon.qq.com^$important
 
