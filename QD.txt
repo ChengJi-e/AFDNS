@@ -25,6 +25,8 @@
 @@||dilidili.live^
 @@||dataprajna.net^
 @@||ip.rtbasia.com^
+#迅雷下载
+@@||down.sandai.net^
 
 !知乎评论
 @@||zhihu-web-analytics.zhihu.com/api/v2/za/payload-verification
