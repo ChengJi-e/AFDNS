@@ -39,5 +39,5 @@
 @@||iqiyi.com^
 #爱奇艺
 @@||dot.360.cn^$important
-#360公告DNS
+#360公共DNS
 
