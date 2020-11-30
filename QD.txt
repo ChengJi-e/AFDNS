@@ -32,12 +32,7 @@
 @@||zhihu-web-analytics.zhihu.com/api/v2/za/payload-verification
 @@||data.mistat.xiaomi.com^$important
 @@||mparticle.uc.cn^$important
-@@||youku.com^
-#优酷
-@@||v.qq.com^
-#腾讯视频
-@@||iqiyi.com^
-#爱奇艺
+
 @@||dot.360.cn^$important
 #360公共DNS
 
