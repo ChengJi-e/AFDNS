@@ -43,5 +43,6 @@
 @@||eleme.cn^
 @@||elemecdn.com^
 #饿了么红包
-@@||ele.me
-
+@@||ele.me^
+#小米浏览器搜索推荐
+@||sug.browser.miui.com
