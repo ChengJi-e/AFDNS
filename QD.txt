@@ -45,4 +45,6 @@
 #饿了么红包
 @@||ele.me^
 #小米浏览器搜索推荐
-@||sug.browser.miui.com
+@@||sug.browser.miui.com^
+#4399小游戏
+@@||stat.api.4399.com^
