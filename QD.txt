@@ -50,3 +50,5 @@
 @@||stat.api.4399.com^
 #大圣净化
 @@||wiki.ad-gone.com
+#小米主题商店
+@@||api.zhuti.xiaomi.com^$important
