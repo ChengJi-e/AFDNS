@@ -54,3 +54,5 @@
 @@||api.zhuti.xiaomi.com^$important
 #阿里巴巴购物
 @@||dj.1688.com^$important
+#天气
+@@||i.tianqi.com^$important
