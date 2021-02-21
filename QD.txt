@@ -15,6 +15,7 @@
 @@||v3-ppx.ixigua.com^$important
 @@||worldwide.sogou.com^$important
 @@||szmg.qq.com^
+@@||adnmb3.com^
 @@||cnnic.net.cn^
 @@||uxip.meizu.com^
 @@||wappass.baidu.com^
