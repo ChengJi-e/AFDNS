@@ -27,6 +27,9 @@
 @@||dataprajna.net^
 @@||ip.rtbasia.com^
 @@||c.pc.qq.com^
+#转转
+@@||app.zhuanzhuan.com^$important
+@@||m.zhuanzhuan.com^$important
 #迅雷下载
 @@||down.sandai.net^
 
