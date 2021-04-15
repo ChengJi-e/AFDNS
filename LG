@@ -39,6 +39,8 @@
 ||gbsp*.com^
 ||baijiahao.baidu.com^
 ||aka.ms^
+||jsjs.nnmsjh.com/2/jquery.dataTables.js^
+||wcehko.juankh.com/6mh6look.js^
 #百度网页APP下载屏蔽
 ||baidu.com$$script[tag-content="isShowCallBaiduApp"]
 以下规则采集至fuckad
