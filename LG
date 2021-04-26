@@ -43,6 +43,20 @@
 ||wcehko.juankh.com/6mh6look.js^
 #百度网页APP下载屏蔽
 ||baidu.com$$script[tag-content="isShowCallBaiduApp"]
+#垃圾勾正数据服务
+||gz-data.com^
+||gzads.com^
+||gozendata.com^ 
+||emar.com^
+||onemob.mobi^
+||reyun.com^
+||71360.com^
+||zhihuiyun.net.cn^
+||www.chance-ad.com^
+||www.nequal.cn^
+||www.n1q.cn^
+||www.nequal.com^
+||ad7.com^
 以下规则采集至fuckad
 ! 信息统计
 ||ulogs.umengcloud.com
