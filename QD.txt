@@ -1,5 +1,4 @@
 !这是一个DNS允许白名单，用于解除被各大拦截规则误伤的域名
-！作者：wei
 @@||weixin.qq.com^
 @@||cn.bing.com^$important
 @@||img.zuoyebang.cc^$important
@@ -63,3 +62,7 @@
 @@||dj.1688.com^$important
 #天气
 @@||i.tianqi.com^$important
+
+
+#阿里系登录接口
+@@||acs.m.taobao.com^
